@@ -373,7 +373,7 @@ border-radius: 5px;
   }
   .package-search input{
     border: none;
- height: 20px;
+ height: 20px; width:50%;
     font-size: 20px;
      }
 
@@ -667,4 +667,8 @@ display: block;
     }
     .package-search{
       width: 50px; height: 10px;}
+.package-search input{
+    border: none;
+ height: 20px; width:50px;
+}
 }
