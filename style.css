@@ -641,10 +641,7 @@ box-shadow: 0 2rem 4rem rgb(18, 1, 18);
 
 
 @media screen and (max-width:600px) {
-   *{font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-font-size:50px;
-    }
-
+   
 
 .navbar-menu-toggle{
 display: block;
