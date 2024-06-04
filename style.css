@@ -666,9 +666,18 @@ display: block;
     display: none;
     }
     .package-search{
-      width: 50px; height: 10px;}
-.package-search input{
+  width: 50%; height: 10px;
+  border:solid black  2px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px; margin: auto;
+  background-color: white;
+  }
+  .package-search input{
     border: none;
- height: 20px; width:50px;
-}
+ height: 20px; width:50%;
+    font-size: 20px;
+     }
 }
