@@ -665,4 +665,6 @@ display: block;
   .navbar-link{
     display: none;
     }
-    }
+    .package-search{
+      width: 20%; height: 10px;}
+}
