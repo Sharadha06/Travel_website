@@ -683,7 +683,8 @@ display: block;
  .contactbox {
       width:100%;
     }
-    .contactbox input,.contactbox textarea{
+    .contactbox input,
+.contactbox textarea {
       font-size: 15px; font-weight:bold;
     }
 .contact{
