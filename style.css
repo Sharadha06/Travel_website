@@ -686,7 +686,8 @@ display: block;
     .contactbox input,textarea{
       font-size: 15px; font-weight:bold;
     }
-
+.contact{
+      background-image: url("contact.jpg"); background-size: cover;}
 
 
 }
