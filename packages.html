@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Travels</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    <body>
+    </head>
+        <header>
+            <h1>DREAM TRAVELS</h1>
+            <nav class="navbar">
+              <p class="navbar-link"><a href="index.html">Home</a></p>
+              <p class="navbar-link"><a href="packages.html">Packages</a></p>
+              <p class="navbar-link"><a href="book.html">Booking</a></p>
+              <p class="navbar-link"><a href="contact.html">Contact</a></p>
+            </div>
+            <div class="navbar-icons">
+              
+              <i class="fas fa-user" id="login-btn"></i>
+          </div><div class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars" ></i></div> </nav>
+    </div></nav>
+    <div class="side-navbar" >
+    <p  style="text-align: right;"  onclick="closeNavbar()">
+    <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+      
+      <p class="side-navbar-link"><a href="index.html">Home</a></p>
+      <p class="side-navbar-link"><a href="packages.html">Packages</a></p>
+      <p class="side-navbar-link"><a href="book.html">Booking</a></p>
+      <p class="side-navbar-link"><a href="contact.html">Contact</a></p></div>
+      </div>
+      
+    
+    </header>
+    
+    <div class="login-form-container">
+    <i class="fa-solid fa-xmark" id="form-close"></i>
+    
+    <form action="">
+    <h3>Login</h3>
+    <input type="email" class="box" placeholder="Enter your email">
+    <input type="password" class="box" placeholder="Enter your password">
+    <input type="submit" value="login now" class="btn">
+    <input type="checkbox" id="emember">
+    <label for="remember">Remember me</label>
+    <p>Forget Password <a href="">click here</a></p>
+    <p>Don't have an account <a href="">Register Now</a></p>
+    </form>
+    </div>
+    
+   
+<section class="slideshow">
+  <div class="text" >
+  
+    <h2>Explore The World</h2>
+    <form class="package-search">
+      <input type="text" id="search" placeholder="Search">
+      <div class="search-icons">
+      <i class="fa-solid fa-magnifying-glass"></i>
+      </form>
+    </div>
+    <div class="slides">
+      <span class="img-btn active" data-src="andaman.jpg"></span>
+      <span class="img-btn" data-src="singapore.jpg"></span>
+      <span class="img-btn " data-src="japan.jpg"></span>
+      <span class="img-btn" data-src="london.jpg"></span>
+      <span class="img-btn" data-src="paris.jpg"></span>
+      <span class="img-btn " data-src="malaysia.jpg"></span>
+      <span class="img-btn " data-src="switzerland.jpg"></span>
+      </div>
+        <div class="img-container">
+      <img src="newyork.jpg" id="img-slider" loop autoplay muted></img>
+      </div></div>
+</section>
+
+ 
+<section class="packages" id="packages">
+  
+    
+        <h1>
+          PACKAGES
+        </h1>
+    
+        <div class="box-container" id="box-container">
+    
+          <div class="box">
+            <img src="andaman.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Andaman</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$90.00 <span>$120.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="srilanka.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Srilanka</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$120.00 <span>$150.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="switzerland.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Switzerland</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$100.00 <span>$130.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="germany.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Germany</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$150.00 <span>$180.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="thailand.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Thailand</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$160.00 <span>$190.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="malaysia.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Malaysia</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$120.00 <span>$150.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="japan.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Japan</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$120.00 <span>$150.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+          <div class="box">
+            <img src="singapore.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Singapore</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$120.00 <span>$150.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="paris.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> Paris</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$120.00 <span>$150.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+
+          <div class="box">
+            <img src="london.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> London</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$150.00 <span>-$180.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+    
+          <div class="box">
+            <img src="newyork.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i> NewYork</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$150.00 <span>-$180.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+
+
+          <div class="box">
+            <img src="dubai.jpg" alt="">
+            <div class="content">
+              <h3><i class="fa-solid fa-map-pin"></i>Dubai</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, tempora!</p>
+                <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+              </div>
+              <div class="price">$150.00 <span>-$180.00</span></div>
+              <a href="#" class="btn" id="book-btn">Book Now</a>
+            </div>
+          </div>
+</div>
+      </section>
+      <div class="book-form-container">
+        <i class="fa-solid fa-xmark" id="book-close"></i>
+        
+        <form action="">
+          <h1>BOOK NOW</h1>
+        <div class="inputBox">
+            <h3>How many</h3>
+            <input type="number" placeholder="Number of guests">
+          </div>
+          <div class="inputBox">
+            <h3>Arrivals</h3>
+            <input type="date">
+          </div>
+          <div class="inputBox">
+            <h3>Departure</h3>
+            <input type="date">
+          </div>
+          <div class="inputBox">
+            <h3>Place</h3>
+          <select name="Place" id="Place" >
+              <option value="" disabled selected>Select your place</option> <option value="Thailand">Thailand</option>
+              <option value="London">London</option>
+              <option value="Paris">Paris</option>
+              <option value="Dubai">Dubai</option>
+              <option value="Germany">Germany</option>
+              <option value="Srilanka">Srilanka</option>
+              <option value="Malaysia">Malaysia</option>
+              <option value="Switzerland">Switzerland</option>
+              <option value="Japan">Japan</option>
+              <option value="Andaman">Andaman</option>
+
+</select>
+
+          </div>
+          <input type="submit" class="btn" value="Book now"></form>
+        </div>
+      <div class="footer">
+        <div class="footer-content">
+        <h2>DREAM TRAVELS</h2>
+        <p>Explore the world with Dream Travels and discover unforgettable experiences</p> 
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <p>www.dreamtravels.com</p>
+        </div>
+        </div>
+        <script>
+
+          var sidenav=document.querySelector(".side-navbar")
+          function showNavbar()
+          {
+              sidenav.style.left="0";
+          }
+          function closeNavbar()
+          {  
+              sidenav.style.left="-60%";
+          }
+          </script> 
+          <script src="script.js">
+          </script>
+          
+      </body>
+      </html>
