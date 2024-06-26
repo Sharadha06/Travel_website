@@ -754,7 +754,7 @@ display: block;
         width: 80%; height: 10px;}
       }
 
-slideshow .text h2{
+.slideshow .text h2{
 
       color:yellow;
       font-size:20px; padding-top: 20px; padding-bottom: 5px;
